@@ -1,13 +1,24 @@
 # CNN_Dog_Breed
+### by Iván Lucas López
 
 [//]: # (Image References)
 
 [image1]: ./images/boxer_example.JPG "Sample Output"
-[image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
-[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
+### Table of Contents
 
-## Project Overview
+1. [Installation](#installation)
+2. [Project Overview](#motivation)
+3. [Project Instructions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## Installation <a name="installation"></a>
+
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  
+The code should run with no issues using Python versions 3.*.
+
+## Project Overview <a name="motivation"></a>
 
 This project uses Convolutional Neural Networks (CNNs). 
 In this project, I have learned how to build a pipeline to process real-world, user-supplied images. 
@@ -22,7 +33,7 @@ Here is an example!
 
 Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
-## Project Instructions
+## Project Instructions <a name="files"></a>
 
 ### Instructions to run this proyect
 
@@ -42,3 +53,12 @@ cd dog-project
 ```
 jupyter notebook dog_app.ipynb
 ```
+
+## Results<a name="results"></a>
+
+The main findings of the code can be found at the post available [here](https://i-lucas.medium.com/traffic-accidents-are-as-different-as-day-and-night-51b52458646d).
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+Must give credit to Udacity for the data and the base Jupyter File.  
+You can find the Licensing for the data and other descriptive information at the link available [here](https://github.com/udacity/dog-project).
