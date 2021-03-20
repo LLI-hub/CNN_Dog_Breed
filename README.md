@@ -12,7 +12,7 @@
 3. [Project Instructions](#files)
 4. [Strategy to solve the problem](#Strategy)
 5. [Metrics](#Metrics)
-6. [EDAD and Models](#model)
+6. [EDA and Models](#model)
 7. [Results](#results)
 8. [Licensing, Authors, and Acknowledgements](#licensing)
 
@@ -98,7 +98,7 @@ On the human model the accuracy will be: (times a human is detected in an image 
 On the dog model the accuracy will be: (times a dog is detected in an image where there is a dog/ total images showing a dog used to test the model).
 On the dog breed model: Times the breed is correctly assigned / Number of images used to test the model.
 
-## EDAD and Models <a name="model"></a>
+## EDA and Models <a name="model"></a>
 Jupyter notebook named dog_app.ipynb
 
 ## Results<a name="results"></a>
