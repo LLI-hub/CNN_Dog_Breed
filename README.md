@@ -56,7 +56,7 @@ jupyter notebook dog_app.ipynb
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://i-lucas.medium.com/traffic-accidents-are-as-different-as-day-and-night-51b52458646d).
+The main findings of the code can be found at the post available [here](https://i-lucas.medium.com/you-look-like-my-best-friend-90edbfa581c8).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
