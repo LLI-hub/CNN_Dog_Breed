@@ -18,6 +18,28 @@
 There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  
 The code should run with no issues using Python versions 3.*.
 
+
+List of libraries used:
+- from sklearn.datasets import load_files       
+- from keras.utils import np_utils
+- import numpy as np
+- from glob import glob
+- from keras.callbacks import ModelCheckpoint
+- import random
+- import cv2
+- import matplotlib.pyplot as plt  
+- from keras.applications.resnet50 import ResNet50
+- from keras.preprocessing import image 
+- from tqdm import tqdm
+- from keras.applications.resnet50 import preprocess_input, decode_predictions
+- from PIL import ImageFile  
+- from keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D
+- from keras.layers import Dropout, Flatten, Dense
+- from keras.models import Sequential
+- from keras.callbacks import ModelCheckpoint
+- from extract_bottleneck_features import *
+
+
 ## Project Overview <a name="motivation"></a>
 
 This project uses Convolutional Neural Networks (CNNs). 
