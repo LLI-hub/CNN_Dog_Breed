@@ -83,14 +83,14 @@ jupyter notebook dog_app.ipynb
 The Latin phrase “Divide et impera” is attributed to Julius Cesar and is the strategy followed in this proyect.
 
 The idea is create a single output that tell us:
-If there are a human in the image.
-If there are a dog in the image.
-The dog breed.
+- If there are a human in the image.
+- If there are a dog in the image.
+- The dog breed.
 
 So I have used 3 different models:
-A model to identify if there is a human face in the image.
-A model to identify if there is a dog in the image.
-A model to identify the dog breed.
+- A model to identify if there is a human face in the image.
+- A model to identify if there is a dog in the image.
+- A model to identify the dog breed.
 
 ## Metrics <a name="Metrics"></a>
 All the models are evaluated using the accuracy.
