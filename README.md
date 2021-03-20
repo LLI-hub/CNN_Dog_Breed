@@ -10,8 +10,11 @@
 1. [Installation](#installation)
 2. [Project Overview](#motivation)
 3. [Project Instructions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Strategy to solve the problem](#Strategy)
+5. [Metrics](#Metrics)
+6. [EDAD and Models](#model)
+7. [Results](#results)
+8. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
@@ -53,7 +56,6 @@ Here is an example!
 
 ![Sample Output][image1]
 
-Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
 ## Project Instructions <a name="files"></a>
 
@@ -75,6 +77,29 @@ cd dog-project
 ```
 jupyter notebook dog_app.ipynb
 ```
+
+## Strategy to solve the problem <a name="Strategy"></a>
+
+The Latin phrase “Divide et impera” is attributed to Julius Cesar and is the strategy followed in this proyect.
+
+The idea is create a single output that tell us:
+If there are a human in the image.
+If there are a dog in the image.
+The dog breed.
+
+So I have used 3 different models:
+A model to identify if there is a human face in the image.
+A model to identify if there is a dog in the image.
+A model to identify the dog breed.
+
+## Metrics <a name="Metrics"></a>
+All the models are evaluated using the accuracy.
+On the human model the accuracy will be: (times a human is detected in an image where there is a human/ total images showing a human used to test the model).
+On the dog model the accuracy will be: (times a dog is detected in an image where there is a dog/ total images showing a dog used to test the model).
+On the dog breed model: Times the breed is correctly assigned / Number of images used to test the model.
+
+## EDAD and Models <a name="model"></a>
+Jupyter notebook named dog_app.ipynb
 
 ## Results<a name="results"></a>
 
