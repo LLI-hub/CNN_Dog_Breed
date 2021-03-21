@@ -13,7 +13,7 @@
 4. [Strategy to solve the problem](#Strategy)
 5. [Metrics](#Metrics)
 6. [EDA and Models](#model)
-7. [Results](#results)
+7. [Results published in a Medium blog post.](#results)
 8. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
@@ -101,9 +101,21 @@ On the dog breed model: Times the breed is correctly assigned / Number of images
 ## EDA and Models <a name="model"></a>
 Jupyter notebook named dog_app.ipynb
 
-## Results<a name="results"></a>
+The notebook is separated in 6 steps.
 
-The main findings of the code can be found at the post available [here](https://i-lucas.medium.com/you-look-like-my-best-friend-90edbfa581c8).
+0. Import Datasets
+1. Detect Humans
+2. Detect Dogs
+3. Create a CNN to Classify Dog Breeds (from Scratch)
+4. Use a CNN to Classify Dog Breeds (using Transfer Learning)
+5. Create a CNN to Classify Dog Breeds (using Transfer Learning)
+6. Write your Algorithm
+7. Test Your Algorithm
+
+
+## Results published in a Medium blog post <a name="results"></a>
+
+The main findings of the code can be found at the Medium blog post available [here](https://i-lucas.medium.com/you-look-like-my-best-friend-90edbfa581c8).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
